@@ -1,5 +1,5 @@
 /* ==========================================
-   SeamSpace Blog - Light Purple Theme
+   seamspace Blog - Light Purple Theme
    ========================================== */
 
 :root {
@@ -85,12 +85,6 @@ body {
   display: none;
 }
 
-.logo-blog {
-  font-weight: 500;
-  font-size: 14px;
-  color: var(--text-muted);
-  margin-left: 2px;
-}
 
 .site-nav {
   display: flex;

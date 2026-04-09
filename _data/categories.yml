@@ -1,7 +1,7 @@
 ko:
   features:
     label: "Features"
-    description: "SeamSpace의 새로운 기능과 개선 사항을 소개합니다."
+    description: "seamspace의 새로운 기능과 개선 사항을 소개합니다."
   case-study:
     label: "Case Study"
     description: "실제 사용 사례와 적용 경험을 공유합니다."
@@ -12,10 +12,10 @@ ko:
 en:
   features:
     label: "Features"
-    description: "Discover new features and improvements in SeamSpace."
+    description: "Discover new features and improvements in seamspace."
   case-study:
     label: "Case Study"
-    description: "Real-world examples of how SeamSpace is used."
+    description: "Real-world examples of how seamspace is used."
   behind-story:
     label: "Behind story"
     description: "Stories behind the product, experiments, and decisions."

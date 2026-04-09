@@ -1,6 +1,6 @@
-# SeamSpace Blog
+# seamspace Blog
 
-Official blog for [SeamSpace](https://www.seamspace.site) — new features, use cases, and more.
+Official blog for [seamspace](https://www.seamspace.site) — new features, use cases, and more.
 
 ## Structure
 
@@ -33,7 +33,7 @@ ref: YYYY/MM/DD/slug/  # must match between ko/en versions
 thumbnail: /assets/images/your-thumbnail.png
 category_label: "신규 기능"  # or "사용 사례", "팁", "공지"
 tags: [tag1, tag2]
-author: SeamSpace Team
+author: seamspace Team
 reading_time: 5
 ---
 ```

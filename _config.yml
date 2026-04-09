@@ -1,6 +1,6 @@
-# SeamSpace Blog
-title: SeamSpace Blog
-description: "SeamSpace - 새로운 기능 소개, 사용 사례, 그리고 더 많은 이야기"
+# seamspace Blog
+title: seamspace Blog
+description: "seamspace - 새로운 기능 소개, 사용 사례, 그리고 더 많은 이야기"
 url: "https://blog.seamspace.site"
 baseurl: ""
 
@@ -42,7 +42,7 @@ logo: /assets/images/logo2.png
 twitter:
   card: summary_large_image
 social:
-  name: SeamSpace
+  name: seamspace
   links:
     - https://www.seamspace.site
 

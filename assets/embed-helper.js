@@ -1,5 +1,5 @@
 /**
- * SeamSpace Blog OG Embed Helper
+ * seamspace Blog OG Embed Helper
  * 
  * Usage on www.seamspace.site:
  * 
@@ -7,11 +7,11 @@
  * <script src="https://blog.seamspace.site/assets/embed-helper.js"></script>
  * 
  * Or fetch OG data via API:
- * const og = await SeamSpaceBlog.fetchOG('https://blog.seamspace.site/ko/...');
+ * const og = await seamspaceBlog.fetchOG('https://blog.seamspace.site/ko/...');
  * // { title, description, image, url }
  */
 
-const SeamSpaceBlog = {
+const seamspaceBlog = {
   // Fetch OG tags from a blog post URL (requires CORS proxy or same-origin)
   async fetchOG(url) {
     try {
@@ -65,7 +65,7 @@ const SeamSpaceBlog = {
 
 // Auto-run on DOM ready
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => SeamSpaceBlog.init());
+  document.addEventListener('DOMContentLoaded', () => seamspaceBlog.init());
 } else {
-  SeamSpaceBlog.init();
+  seamspaceBlog.init();
 }
