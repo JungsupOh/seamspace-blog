@@ -1,0 +1,63 @@
+# SeamSpace Blog
+title: SeamSpace Blog
+description: "SeamSpace - 새로운 기능 소개, 사용 사례, 그리고 더 많은 이야기"
+url: "https://blog.seamspace.site"
+baseurl: ""
+
+# Brand
+brand_color: "#9B7FD4"
+brand_color_light: "#C4B5E3"
+brand_color_dark: "#6B4FA0"
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections for i18n
+defaults:
+  - scope:
+      path: "_posts/ko"
+      type: "posts"
+    values:
+      layout: "post"
+      lang: "ko"
+      permalink: /ko/:year/:month/:day/:title/
+  - scope:
+      path: "_posts/en"
+      type: "posts"
+    values:
+      layout: "post"
+      lang: "en"
+      permalink: /en/:year/:month/:day/:title/
+
+# SEO / OG defaults
+logo: /assets/images/seamspace-logo.png
+twitter:
+  card: summary_large_image
+social:
+  name: SeamSpace
+  links:
+    - https://www.seamspace.site
+
+# Language navigation
+languages:
+  ko:
+    label: "한국어"
+    icon: "🇰🇷"
+  en:
+    label: "English"
+    icon: "🇺🇸"
+
+# Exclude
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules

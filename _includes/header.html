@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-logo">
+      <span class="logo-icon">◈</span>
+      <span class="logo-text">SeamSpace</span>
+      <span class="logo-blog">Blog</span>
+    </a>
+    <nav class="site-nav">
+      <a href="{{ site.url }}" class="nav-link">Homepage</a>
+      {% if page.lang == 'ko' and page.ref %}
+        <a href="{{ site.url }}/en/{{ page.ref }}" class="lang-switch" title="English">🇺🇸 EN</a>
+      {% elsif page.lang == 'en' and page.ref %}
+        <a href="{{ site.url }}/ko/{{ page.ref }}" class="lang-switch" title="한국어">🇰🇷 KO</a>
+      {% else %}
+        <a href="{{ '/ko/' | relative_url }}" class="lang-switch">🇰🇷 KO</a>
+        <a href="{{ '/en/' | relative_url }}" class="lang-switch">🇺🇸 EN</a>
+      {% endif %}
+    </nav>
+  </div>
+</header>

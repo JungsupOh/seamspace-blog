@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    {% if page.category_label %}
+    <span class="post-category">{{ page.category_label }}</span>
+    {% endif %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%Y년 %m월 %d일" }}
+      </time>
+      {% if page.author %}
+      <span class="post-author">· {{ page.author }}</span>
+      {% endif %}
+      {% if page.reading_time %}
+      <span class="post-reading-time">· {{ page.reading_time }}분 읽기</span>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if page.thumbnail %}
+  <div class="post-thumbnail">
+    <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" loading="lazy">
+  </div>
+  {% endif %}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    {% if page.tags %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <span class="tag">#{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if page.ref %}
+    <div class="post-lang-switch">
+      {% if page.lang == 'ko' %}
+        📖 <a href="{{ site.url }}/en/{{ page.ref }}">Read in English</a>
+      {% else %}
+        📖 <a href="{{ site.url }}/ko/{{ page.ref }}">한국어로 읽기</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </footer>
+</article>
