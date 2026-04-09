@@ -9,7 +9,7 @@ layout: default
     {% assign current_lang = page.lang | default: 'ko' %}
     {% assign cat_map = site.data.categories[current_lang] %}
     <div class="category-tabs">
-      <a href="{{ page.url | relative_url }}" class="category-tab {% unless page.category_key %}active{% endunless %}">All</a>
+      <a href="{{ '/' | append: current_lang | append: '/' | relative_url }}" class="category-tab {% unless page.category_key %}active{% endunless %}">All</a>
       {% for entry in cat_map %}
         <a href="{{ '/' | append: current_lang | append: '/' | append: entry[0] | append: '/' | relative_url }}" class="category-tab {% if page.category_key == entry[0] %}active{% endif %}">{{ entry[1].label }}</a>
       {% endfor %}
