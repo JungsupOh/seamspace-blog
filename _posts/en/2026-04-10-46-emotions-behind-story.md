@@ -5,7 +5,7 @@ description: "A behind-the-scenes look at how seamspace started from a well-know
 date: 2026-04-10 00:10:00 +0900
 lang: en
 ref: 2026/04/10/46-emotions-behind-story/
-thumbnail: /assets/images/46-emotions/01.png
+thumbnail: /assets/images/46-emotions/01.jpg
 category_key: behind-story
 category_label: "Behind story"
 tags: [emotion, diary-analysis, emotion-framework, behind-story]
@@ -17,13 +17,13 @@ The way we understand emotions is rarely simple. Two feelings may look similar o
 
 To read these differences more carefully, seamspace took a step back and revisited the foundation of emotion classification itself. One of the references that helped shape this process was the well-known book **_42 Colors of Feelings_**, which is also widely known for being included in elementary school materials in Korea.
 
-![Reference image 1 for 42 emotions](/assets/images/46-emotions/01.png)
+![Reference image 1 for 42 emotions](/assets/images/46-emotions/01.jpg)
 
 What stood out to us about this book was that it does not simply list emotion names. Instead, it explains each emotion through a clear structure: its **definition**, a relatable **example**, and the kind of **response** that may appear when someone feels it. It treats emotions not as labels, but as living language.
 
-![Reference image 2 for 42 emotions](/assets/images/46-emotions/02.png)
+![Reference image 2 for 42 emotions](/assets/images/46-emotions/02.jpg)
 
-![Reference image 3 for 42 emotions](/assets/images/46-emotions/03.png)
+![Reference image 3 for 42 emotions](/assets/images/46-emotions/03.jpg)
 
 This structure became especially meaningful for seamspace:
 
@@ -37,9 +37,9 @@ As we continued analyzing real diary entries, however, we found that the origina
 
 So seamspace built on the original 42-emotion structure, while adding **four additional emotions** that appeared repeatedly in diary analysis but were not part of the original set. That is how seamspace's **46-emotion framework** came together.
 
-![Reference image 4 for emotion structure](/assets/images/46-emotions/04.png)
+![Reference image 4 for emotion structure](/assets/images/46-emotions/04.jpg)
 
-![Reference image 5 for emotion structure](/assets/images/46-emotions/05.png)
+![Reference image 5 for emotion structure](/assets/images/46-emotions/05.jpg)
 
 This was never about increasing the number just for the sake of detail. The real goal was to understand people’s emotions in a way that feels more natural and more precise. Emotions that look similar are often used in very different contexts, and if we miss those differences, our interpretation of someone’s daily record becomes flatter than it should be.
 
