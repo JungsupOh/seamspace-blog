@@ -5,6 +5,9 @@ ko:
   case-study:
     label: "Case Study"
     description: "실제 사용 사례와 적용 경험을 공유합니다."
+  research:
+    label: "Research"
+    description: "감정, 기록, 자기이해에 대한 리서치와 인사이트를 정리합니다."
   behind-story:
     label: "Behind story"
     description: "제품 뒤에 있는 생각, 실험, 제작 과정을 이야기합니다."
@@ -16,6 +19,9 @@ en:
   case-study:
     label: "Case Study"
     description: "Real-world examples of how seamspace is used."
+  research:
+    label: "Research"
+    description: "Research and insights on emotion, journaling, and self-understanding."
   behind-story:
     label: "Behind story"
     description: "Stories behind the product, experiments, and decisions."
