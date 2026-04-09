@@ -35,9 +35,14 @@ layout: default
         {% endif %}
         <h2 class="card-title">{{ post.title }}</h2>
         <p class="card-description">{{ post.description | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
-        <time class="card-date" datetime="{{ post.date | date_to_xmlschema }}">
-          {{ post.date | date: "%Y.%m.%d" }}
-        </time>
+        <div class="card-meta-row">
+          <time class="card-date" datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%Y.%m.%d" }}
+          </time>
+          {% if site.goatcounter_url %}
+          <span class="card-views" data-path="{{ post.url | relative_url }}"><span class="views-icon">•</span> <span class="gc-card-views">—</span></span>
+          {% endif %}
+        </div>
       </div>
     </a>
     {% endfor %}

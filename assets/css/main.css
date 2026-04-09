@@ -254,10 +254,23 @@ body {
   line-height: 1.6;
 }
 
+.card-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+}
+
 .card-date {
   font-size: 13px;
   color: var(--text-muted);
-  margin-top: auto;
+}
+
+.card-views {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
 }
 
 /* Single Post */
