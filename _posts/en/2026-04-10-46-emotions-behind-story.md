@@ -4,7 +4,7 @@ title: "How seamspace built its 46-emotion framework"
 description: "A behind-the-scenes look at how seamspace started from a well-known 42-emotion structure and expanded it with four additional emotions frequently found in diary analysis."
 date: 2026-04-10 00:10:00 +0900
 lang: en
-ref: 2026/04/10/46-emotions-behind-story/
+ref: 46-emotions-behind-story/
 thumbnail: /assets/images/46-emotions/01.jpg
 category_key: behind-story
 category_label: "Behind story"

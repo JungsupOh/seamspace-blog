@@ -4,7 +4,7 @@ title: "Introducing the seamspace Blog"
 description: "Welcome to the official seamspace blog — your source for new features, use cases, and tips."
 date: 2026-04-09 21:00:00 +0900
 lang: en
-ref: 2026/04/09/seamspace-blog-launch/
+ref: seamspace-blog-launch/
 thumbnail: /assets/images/default-og.png
 category_key: behind-story
 category_label: "Behind story"

@@ -4,7 +4,7 @@ title: "seamspace 블로그를 시작합니다"
 description: "seamspace의 새로운 기능, 사용 사례, 팁을 공유하는 공식 블로그입니다."
 date: 2026-04-09 21:00:00 +0900
 lang: ko
-ref: 2026/04/09/seamspace-blog-launch/
+ref: seamspace-blog-launch/
 thumbnail: /assets/images/default-og.png
 category_key: behind-story
 category_label: "Behind story"

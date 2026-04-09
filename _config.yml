@@ -12,7 +12,7 @@ brand_color_dark: "#6B4FA0"
 # Build
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:title/
 
 # Plugins
 plugins:
@@ -28,14 +28,14 @@ defaults:
     values:
       layout: "post"
       lang: "ko"
-      permalink: /ko/:year/:month/:day/:title/
+      permalink: /ko/:title/
   - scope:
       path: "_posts/en"
       type: "posts"
     values:
       layout: "post"
       lang: "en"
-      permalink: /en/:year/:month/:day/:title/
+      permalink: /en/:title/
 
 # SEO / OG defaults
 logo: /assets/images/logo2.png

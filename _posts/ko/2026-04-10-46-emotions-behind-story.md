@@ -4,7 +4,7 @@ title: "seamspace의 46가지 감정은 어떻게 만들어졌을까"
 description: "아이들의 감정 언어를 다룬 책에서 출발해, 실제 일기 분석에서 자주 등장하는 감정까지 더해 seamspace만의 46가지 감정 체계를 완성한 과정을 소개합니다."
 date: 2026-04-10 00:10:00 +0900
 lang: ko
-ref: 2026/04/10/46-emotions-behind-story/
+ref: 46-emotions-behind-story/
 thumbnail: /assets/images/46-emotions/01.jpg
 category_key: behind-story
 category_label: "Behind story"
