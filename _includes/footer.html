@@ -2,7 +2,7 @@
   <div class="footer-inner">
     <p>&copy; {{ 'now' | date: '%Y' }} seamspace. All rights reserved.</p>
     {% if site.goatcounter_url %}
-    <p class="footer-visitors"><span class="views-icon">•</span> <span id="gc-total-visitors">—</span></p>
+    <p class="footer-visitors">{% include view-icon.html %} <span id="gc-total-visitors">—</span></p>
     {% endif %}
     <p><a href="https://www.seamspace.site">www.seamspace.site</a></p>
   </div>

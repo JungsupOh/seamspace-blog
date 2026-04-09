@@ -438,8 +438,13 @@ body {
   color: var(--text-muted);
 }
 
-.views-icon {
+.view-icon {
+  width: 14px;
+  height: 14px;
+  color: currentColor;
+  vertical-align: -2px;
   margin-right: 4px;
+  opacity: 0.7;
 }
 
 .footer-visitors {
