@@ -34,6 +34,12 @@ layout: default
   </div>
 
   <footer class="post-footer">
+    <div class="post-meta-bottom">
+      {% if site.goatcounter_url %}
+      <div class="post-views">Views <span id="gc-views" data-goatcounter-url="{{ page.url | relative_url }}">—</span></div>
+      {% endif %}
+    </div>
+
     {% if page.tags %}
     <div class="post-tags">
       {% for tag in page.tags %}
