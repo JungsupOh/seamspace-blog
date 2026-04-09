@@ -23,7 +23,7 @@ layout: default
     </div>
   </header>
 
-  {% if page.thumbnail %}
+  {% if page.thumbnail and page.thumbnail != '/assets/images/default-og.png' %}
   <div class="post-thumbnail">
     <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" loading="lazy">
   </div>
