@@ -39,6 +39,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@media (prefers-color-scheme: dark) {
+  .logo-light {
+    display: none;
+  }
+
+  .logo-dark {
+    display: block;
+  }
+}
+
 /* Header */
 .site-header {
   position: sticky;
@@ -62,22 +72,21 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
-.logo-icon {
-  font-size: 24px;
-  color: var(--purple);
+.logo {
+  display: block;
+  height: 28px;
+  width: auto;
 }
 
-.logo-text {
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--text-primary);
+.logo-dark {
+  display: none;
 }
 
 .logo-blog {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   color: var(--text-muted);
   margin-left: 2px;
