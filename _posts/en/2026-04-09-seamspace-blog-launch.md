@@ -6,7 +6,8 @@ date: 2026-04-09 21:00:00 +0900
 lang: en
 ref: 2026/04/09/seamspace-blog-launch/
 thumbnail: /assets/images/default-og.png
-category_label: "Announcement"
+category_key: behind-story
+category_label: "Behind story"
 tags: [seamspace, blog, launch]
 author: SeamSpace Team
 reading_time: 2
