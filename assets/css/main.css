@@ -425,6 +425,14 @@ body {
   color: var(--text-muted);
 }
 
+.views-icon {
+  margin-right: 4px;
+}
+
+.footer-visitors {
+  color: var(--text-muted);
+}
+
 .post-tags {
   display: flex;
   flex-wrap: wrap;
