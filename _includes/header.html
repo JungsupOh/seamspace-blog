@@ -6,14 +6,16 @@
     </a>
     <nav class="site-nav">
       <a href="{{ site.url }}" class="nav-link">Homepage</a>
-      {% if page.lang == 'ko' and page.ref %}
-        <a href="{{ site.url }}/en/{{ page.ref }}" class="lang-switch" title="English">🇺🇸 EN</a>
-      {% elsif page.lang == 'en' and page.ref %}
-        <a href="{{ site.url }}/ko/{{ page.ref }}" class="lang-switch" title="한국어">🇰🇷 KO</a>
-      {% else %}
-        <a href="{{ '/ko/' | relative_url }}" class="lang-switch">🇰🇷 KO</a>
-        <a href="{{ '/en/' | relative_url }}" class="lang-switch">🇺🇸 EN</a>
-      {% endif %}
+      {% assign current_lang = page.lang | default: 'ko' %}
+      {% for lang_entry in site.languages %}
+        {% assign lang_code = lang_entry[0] %}
+        {% assign lang_info = lang_entry[1] %}
+        {% if page.ref %}
+          <a href="{{ site.url }}/{{ lang_code }}/{{ page.ref }}" class="lang-switch {% if current_lang == lang_code %}active{% endif %}" title="{{ lang_info.label }}">{{ lang_info.icon }} {{ lang_code | upcase }}</a>
+        {% else %}
+          <a href="{{ '/' | append: lang_code | append: '/' | relative_url }}" class="lang-switch {% if current_lang == lang_code %}active{% endif %}" title="{{ lang_info.label }}">{{ lang_info.icon }} {{ lang_code | upcase }}</a>
+        {% endif %}
+      {% endfor %}
     </nav>
   </div>
 </header>

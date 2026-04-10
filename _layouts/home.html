@@ -39,9 +39,6 @@ layout: default
           <time class="card-date" datetime="{{ post.date | date_to_xmlschema }}">
             {{ post.date | date: "%Y.%m.%d" }}
           </time>
-          {% if site.goatcounter_url %}
-          <span class="card-views" data-path="{{ post.url | relative_url }}">{% include view-icon.html %} <span class="gc-card-views">—</span></span>
-          {% endif %}
         </div>
       </div>
     </a>

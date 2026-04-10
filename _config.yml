@@ -68,7 +68,6 @@ defaults:
 # SEO / OG defaults
 logo: /assets/images/logo2.png
 google_analytics: G-PS58SBZBYN
-goatcounter_url: https://seamspace.goatcounter.com/count
 twitter:
   card: summary_large_image
 social:

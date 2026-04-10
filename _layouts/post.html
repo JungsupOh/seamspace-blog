@@ -28,12 +28,6 @@ layout: default
   </div>
 
   <footer class="post-footer">
-    <div class="post-meta-bottom">
-      {% if site.goatcounter_url %}
-      <div class="post-views" aria-label="views">{% include view-icon.html %} <span id="gc-views" data-goatcounter-url="{{ page.url | relative_url }}">—</span></div>
-      {% endif %}
-    </div>
-
     {% if page.tags %}
     <div class="post-tags">
       {% for tag in page.tags %}
@@ -44,11 +38,14 @@ layout: default
 
     {% if page.ref %}
     <div class="post-lang-switch">
-      {% if page.lang == 'ko' %}
-        📖 <a href="{{ site.url }}/en/{{ page.ref }}">Read in English</a>
-      {% else %}
-        📖 <a href="{{ site.url }}/ko/{{ page.ref }}">한국어로 읽기</a>
-      {% endif %}
+      📖
+      {% for lang_entry in site.languages %}
+        {% assign lang_code = lang_entry[0] %}
+        {% assign lang_info = lang_entry[1] %}
+        {% unless page.lang == lang_code %}
+          <a href="{{ site.url }}/{{ lang_code }}/{{ page.ref }}">{{ lang_info.icon }} {{ lang_info.label }}</a>
+        {% endunless %}
+      {% endfor %}
     </div>
     {% endif %}
   </footer>
