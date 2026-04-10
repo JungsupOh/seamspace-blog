@@ -25,3 +25,59 @@ en:
   behind-story:
     label: "Behind story"
     description: "Stories behind the product, experiments, and decisions."
+
+ja:
+  features:
+    label: "機能紹介"
+    description: "seamspaceの新機能と改善点をご紹介します。"
+  case-study:
+    label: "ケーススタディ"
+    description: "実際の使用事例と導入体験を共有します。"
+  research:
+    label: "リサーチ"
+    description: "感情、記録、自己理解に関するリサーチとインサイト。"
+  behind-story:
+    label: "ビハインドストーリー"
+    description: "製品の裏側にある考え、実験、制作過程を語ります。"
+
+es:
+  features:
+    label: "Funciones"
+    description: "Descubre nuevas funciones y mejoras en seamspace."
+  case-study:
+    label: "Casos de Estudio"
+    description: "Ejemplos reales de cómo se usa seamspace."
+  research:
+    label: "Investigación"
+    description: "Investigación e insights sobre emociones, diarios y autoconocimiento."
+  behind-story:
+    label: "Detrás de Escena"
+    description: "Historias detrás del producto, experimentos y decisiones."
+
+tr:
+  features:
+    label: "Özellikler"
+    description: "seamspace'in yeni özelliklerini ve iyileştirmelerini keşfedin."
+  case-study:
+    label: "Başarı Hikayeleri"
+    description: "seamspace'in gerçek dünyada nasıl kullanıldığına dair örnekler."
+  research:
+    label: "Araştırma"
+    description: "Duygular, günlük tutma ve öz anlayış üzerine araştırmalar ve içgörüler."
+  behind-story:
+    label: "Perde Arkası"
+    description: "Ürünün ardındaki düşünceler, deneyler ve kararlar."
+
+mn:
+  features:
+    label: "Онцлогууд"
+    description: "seamspace-ийн шинэ онцлог, сайжруулалтуудыг танилцуулна."
+  case-study:
+    label: "Кейс судалгаа"
+    description: "seamspace-ийг хэрэглэсэн бодит жишээнүүд."
+  research:
+    label: "Судалгаа"
+    description: "Сэтгэл хөдлөл, тэмдэглэл, өөрийгөө ойлгох тухай судалгаа, ойлголт."
+  behind-story:
+    label: "Ар талын түүх"
+    description: "Бүтээгдэхүүний ар дахь бодол, туршилт, шийдвэрүүд."

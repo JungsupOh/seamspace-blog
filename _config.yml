@@ -36,6 +36,34 @@ defaults:
       layout: "post"
       lang: "en"
       permalink: /en/:title/
+  - scope:
+      path: "_posts/ja"
+      type: "posts"
+    values:
+      layout: "post"
+      lang: "ja"
+      permalink: /ja/:title/
+  - scope:
+      path: "_posts/es"
+      type: "posts"
+    values:
+      layout: "post"
+      lang: "es"
+      permalink: /es/:title/
+  - scope:
+      path: "_posts/tr"
+      type: "posts"
+    values:
+      layout: "post"
+      lang: "tr"
+      permalink: /tr/:title/
+  - scope:
+      path: "_posts/mn"
+      type: "posts"
+    values:
+      layout: "post"
+      lang: "mn"
+      permalink: /mn/:title/
 
 # SEO / OG defaults
 logo: /assets/images/logo2.png
@@ -56,6 +84,18 @@ languages:
   en:
     label: "English"
     icon: "🇺🇸"
+  ja:
+    label: "日本語"
+    icon: "🇯🇵"
+  es:
+    label: "Español"
+    icon: "🇪🇸"
+  tr:
+    label: "Türkçe"
+    icon: "🇹🇷"
+  mn:
+    label: "Монгол"
+    icon: "🇲🇳"
 
 # Exclude
 exclude:
