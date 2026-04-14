@@ -2,7 +2,7 @@
 layout: post
 title: "친구들과 내 이야기를 공유해 봐요"
 description: "AI 마음일기에서 친구들의 이야기를 살펴보고 공감하는 방법을 배워보세요. 안전한 환경에서 디지털 리터러시와 감정 표현 능력을 함께 키울 수 있습니다."
-date: 2026-04-13 00:00:00 +0900
+date: 2024-07-13 00:00:00 +0900
 lang: ko
 ref: sharing-stories-learning-empathy/
 thumbnail: /assets/images/sharing-stories-learning-empathy/01.png

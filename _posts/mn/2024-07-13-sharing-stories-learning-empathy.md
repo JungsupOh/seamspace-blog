@@ -2,7 +2,7 @@
 layout: post
 title: "Өөрийн Түүхээ Хуваалцаад Сочиалчлалыг Сурах"
 description: "AI 마음일기 ашиглан найзуудынхаа түүхүүдийг аюулгүй орчинд сонсож, сочиалчлалыг сур. Нэгэн зэрэг тоон грамотлол болон сэтгэлийн илэрхийлэлийн ур чадварыг хөгжүүл."
-date: 2026-04-13 00:00:00 +0900
+date: 2024-07-13 00:00:00 +0900
 lang: mn
 ref: sharing-stories-learning-empathy/
 thumbnail: /assets/images/sharing-stories-learning-empathy/01.png

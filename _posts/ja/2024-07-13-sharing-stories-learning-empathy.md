@@ -2,7 +2,7 @@
 layout: post
 title: "あなたのストーリーをシェアして共感する力を育もう"
 description: "AI 마음일기の安全な空間で友人のストーリーを探索し、共感力を学びましょう。デジタルリテラシーと感情表現スキルを一緒に育成します。"
-date: 2026-04-13 00:00:00 +0900
+date: 2024-07-13 00:00:00 +0900
 lang: ja
 ref: sharing-stories-learning-empathy/
 thumbnail: /assets/images/sharing-stories-learning-empathy/01.png

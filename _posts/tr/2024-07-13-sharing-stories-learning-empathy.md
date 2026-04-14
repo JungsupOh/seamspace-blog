@@ -2,7 +2,7 @@
 layout: post
 title: "Hikayenizi Paylaşın ve Empati Kurmayı Öğrenin"
 description: "AI 마음일기 ile güvenli bir ortamda arkadaşlarınızın hikayelerini keşfedin ve empati öğrenin. Dijital okuryazarlık ve duygusal ifade becerilerini birlikte geliştirin."
-date: 2026-04-13 00:00:00 +0900
+date: 2024-07-13 00:00:00 +0900
 lang: tr
 ref: sharing-stories-learning-empathy/
 thumbnail: /assets/images/sharing-stories-learning-empathy/01.png

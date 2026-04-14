@@ -2,7 +2,7 @@
 layout: post
 title: "Comparte Tu Historia y Aprende a Empatizar"
 description: "Explora historias de amigos y aprende empatía en un espacio seguro con AI 마음일기. Desarrolla juntos la alfabetización digital y habilidades de expresión emocional."
-date: 2026-04-13 00:00:00 +0900
+date: 2024-07-13 00:00:00 +0900
 lang: es
 ref: sharing-stories-learning-empathy/
 thumbnail: /assets/images/sharing-stories-learning-empathy/01.png
