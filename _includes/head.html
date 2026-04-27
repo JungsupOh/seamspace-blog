@@ -1,6 +1,42 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+{%- comment -%}
+  SEO migration to www.seamspace.site (Phase 3).
+  Compute the corresponding URL on the main site, then emit:
+    - canonical -> main site
+    - noindex   -> stop competing with main site in search results
+    - meta refresh -> auto-redirect human visitors
+  Static assets (posts.json, /assets/*) are unaffected because they are not HTML.
+{%- endcomment -%}
+{%- assign p_lang = page.lang | default: 'ko' -%}
+{%- if p_lang == 'en' -%}
+  {%- assign main_prefix = '' -%}
+{%- else -%}
+  {%- assign main_prefix = '/' | append: p_lang -%}
+{%- endif -%}
+{%- if page.path contains '_posts/' -%}
+  {%- if page.category_key == 'behind-story' -%}
+    {%- assign main_cat = 'blog' -%}
+  {%- else -%}
+    {%- assign main_cat = page.category_key -%}
+  {%- endif -%}
+  {%- assign main_url = 'https://www.seamspace.site' | append: main_prefix | append: '/resource/' | append: main_cat | append: '/' | append: page.slug -%}
+{%- elsif page.category_key -%}
+  {%- if page.category_key == 'behind-story' -%}
+    {%- assign main_cat = 'blog' -%}
+  {%- else -%}
+    {%- assign main_cat = page.category_key -%}
+  {%- endif -%}
+  {%- assign main_url = 'https://www.seamspace.site' | append: main_prefix | append: '/resource/' | append: main_cat -%}
+{%- else -%}
+  {%- assign main_url = 'https://www.seamspace.site' | append: main_prefix | append: '/resource/blog' -%}
+{%- endif -%}
+
+<link rel="canonical" href="{{ main_url }}">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url={{ main_url }}">
+
 <!-- SEO & OG Tags -->
 <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | truncatewords: 50 }}">
