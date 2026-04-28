@@ -37,6 +37,28 @@
 <meta name="robots" content="noindex, follow">
 <meta http-equiv="refresh" content="0; url={{ main_url }}">
 
+{%- if page.path contains '_posts/' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.excerpt | strip_html | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "author": { "@type": "Person", "name": {{ page.author | default: 'Seamspace Team' | jsonify }} },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tebahsoft",
+    "logo": { "@type": "ImageObject", "url": "https://www.seamspace.site/lovable-uploads/6babcfd3-8b1a-428d-9aa0-4dade44ef0ff.png" }
+  },
+  "inLanguage": {{ page.lang | jsonify }},
+  "url": {{ main_url | jsonify }}{% if page.thumbnail %},
+  "image": {{ page.thumbnail | absolute_url | jsonify }}{% endif %}
+}
+</script>
+{%- endif -%}
+
 <!-- SEO & OG Tags -->
 <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | truncatewords: 50 }}">
