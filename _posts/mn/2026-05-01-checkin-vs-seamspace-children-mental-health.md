@@ -6,8 +6,8 @@ date: 2026-05-01 11:00:00 +0900
 lang: mn
 ref: checkin-vs-seamspace-children-mental-health/
 thumbnail: /assets/images/checkin-vs-seamspace-children-mental-health/01.png
-category_key: research
-category_label: "Research"
+category_key: blog
+category_label: "Blog"
 author: seamspace Team
 ---
 

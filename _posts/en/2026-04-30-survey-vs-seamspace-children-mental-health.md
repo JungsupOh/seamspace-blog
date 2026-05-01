@@ -6,8 +6,8 @@ date: 2026-04-30 10:00:00 +0900
 lang: en
 ref: survey-vs-seamspace-children-mental-health/
 thumbnail: /assets/images/survey-vs-seamspace-children-mental-health/01.png
-category_key: research
-category_label: "Research"
+category_key: blog
+category_label: "Blog"
 author: seamspace Team
 ---
 
